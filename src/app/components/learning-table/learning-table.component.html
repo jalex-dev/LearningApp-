@@ -1,0 +1,15 @@
+<h5 class="card-title">Estuduantes</h5>
+<table class="table table-striped">
+  <thead>
+    <th>IDENTICACION</th>
+    <th>NOMBRE</th>
+    <th>APELLIDO</th>
+  </thead>
+  <tbody>
+    @for (item of students; track $index) {
+
+    <tr learning-items [item]=item></tr>
+
+    }
+  </tbody>
+</table>
